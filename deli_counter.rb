@@ -3,7 +3,9 @@ katz_deli = []
 
 def line(position)
   if position = []
-    puts ""
+    puts "The line is currently empty."
+  else 
+    
   end
 
 def take_a_number(katz_deli, name)
