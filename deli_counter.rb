@@ -6,7 +6,7 @@ def line(position)
     puts "The line is currently empty."
   else 
     puts "The line is currently: "
-    position.each_with_index {|val, index| puts "#{index} => #{val}"
+    position.each_with_index {|val, index| puts "#{index} => #{val}"}
     
   end
 end
