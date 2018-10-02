@@ -14,4 +14,4 @@ def line(position)
 end
 
 
-def take_a_number()
+def take_a_number(position, name)
