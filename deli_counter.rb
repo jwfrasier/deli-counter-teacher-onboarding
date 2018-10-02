@@ -9,6 +9,7 @@ def line(position)
   position.each_with_index {
     |val, index| message.push(" #{index+1}. #{val}")
   }
+  print message
   end
 end
 
