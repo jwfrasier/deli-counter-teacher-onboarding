@@ -13,4 +13,4 @@ def line(position)
   end
 end
 
-line()
+line(["Logan", "Avi", "Spencer"])
