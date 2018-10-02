@@ -8,6 +8,3 @@ def line(position)
     puts "Your position is"
   end
 
-def take_a_number(katz_deli, name)
-  puts "Hello" {name}
-  end
