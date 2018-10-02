@@ -17,5 +17,6 @@ end
 def take_a_number(position, name)
   if position == []
     puts "Welcome, #{name}. You are number #{position[0] + 1} in line."
+    position.push(name)
   end
 end
