@@ -7,7 +7,7 @@ def line(position)
   else 
     message = ["The line is currently:"]
   position.each_with_index {
-    |val, index| message.push(" #{index+1}.#{val}")
+    |val, index| message.push(" #{index+1}. #{val}")
   }
   puts message.join("")
   end
