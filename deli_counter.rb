@@ -15,3 +15,8 @@ end
 
 
 def take_a_number(position, name)
+  if position == []
+    puts "The line is currently empty."
+  else 
+    message =
+end
