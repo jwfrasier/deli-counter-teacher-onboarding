@@ -5,7 +5,7 @@ def line(position)
   if position == []
     puts "The line is currently empty."
   else 
-    position.each { |x| puts "The line is currently: 1. Logan 2. Avi 3. Spencer" }
+    position.each { |x| puts "The line is currently:" x }
     
   end
 end
