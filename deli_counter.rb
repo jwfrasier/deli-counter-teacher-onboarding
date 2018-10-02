@@ -5,7 +5,7 @@ def line(position)
   if position == []
     puts "The line is currently empty."
   elsif 
-    puts "The line is currently: #{position.each_with_index {|val, index| puts " #{index+1}. #{val}"}}"
+    puts "#{position.each_with_index {|val, index| puts "The line is currently:  #{index+1}. #{val}"}}"
    
     
   end
