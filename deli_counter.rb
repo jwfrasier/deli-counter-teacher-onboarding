@@ -2,9 +2,7 @@
 katz_deli = []
 
 def line(position)
-  if position = []
+  if position == []
     puts "The line is currently empty."
-  else 
-    puts "Your position is"
   end
 
