@@ -4,7 +4,7 @@ katz_deli = []
 def line(position)
   if position == []
     puts "The line is currently empty."
-  else 
+  elsif 
     puts "The line is currently: #{position.each_with_index {|val, index| puts " #{index+1}. #{val}"}}"
    
     
