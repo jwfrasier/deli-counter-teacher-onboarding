@@ -16,6 +16,6 @@ end
 
 def take_a_number(position, name)
   if position == []
-    puts "Welcome, Ada. You are number 1 in line."
+    puts "Welcome, #{name}. You are number #{position[0] + 1} in line."
   end
 end
