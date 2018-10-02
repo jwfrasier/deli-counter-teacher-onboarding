@@ -18,5 +18,6 @@ def take_a_number(position, name)
   if position == []
     puts "Welcome, #{name}. You are number 1 in line."
     position.push(name)
+    
   end
 end
