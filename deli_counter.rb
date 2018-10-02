@@ -13,3 +13,4 @@ def line(position)
   end
 end
 
+line()
